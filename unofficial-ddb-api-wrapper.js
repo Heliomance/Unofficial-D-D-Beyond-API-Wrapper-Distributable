@@ -33,6 +33,7 @@ Hooks.once('init', async function () {
 Hooks.once('setup', function () {
     // Do anything after initialization but before
     // ready
+    test.requestSessionCookie();
 });
 /* ------------------------------------ */
 /* When ready							*/
