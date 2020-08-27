@@ -3,7 +3,7 @@
   "title": "Unofficial D&D Beyond Api Wrapper",
   "description": "",
   "systems": ["dnd5e"],
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Heliomance",
   "authors": [
     {
@@ -14,13 +14,13 @@
   ],
   "scripts": [],
   "esmodules": [
-    "unofficial-ddb-api-wrapper.ts",
-    "module/loginHandler.ts",
-    "module/registerSettings.ts",
-    "module/preloadTemplates.ts"
+    "unofficial-ddb-api-wrapper.js",
+    "module/loginHandler.js",
+    "module/settings.js",
+    "module/preloadTemplates.js"
   ],
   "styles": [
-    "unofficial-ddb-api-wrapper.scss"
+    "unofficial-ddb-api-wrapper.css"
   ],
   "packs": [],
   "languages": [],
@@ -28,7 +28,7 @@
   "compatibleCoreVersion": "0.5.0",
   "url": "",
   "manifest": "",
-  "download": "https://github.com/Heliomance/Unofficial-D-D-Beyond-API-Wrapper/archive/feature/Authentication.zip",
+  "download": "https://github.com/Heliomance/Unofficial-D-D-Beyond-API-Wrapper-Distributable/archive/master.zip",
   "license": "",
   "readme": "",
   "bugs": "",
