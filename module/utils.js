@@ -1,6 +1,6 @@
 export class Utils {
-    static sendCustomEvent(name, data) {
-        const event = new CustomEvent("UDAW_" + name, { "detail": data });
+    static sendCustomEvent(data) {
+        const event = new CustomEvent("UDAW", { "detail": data });
         document.dispatchEvent(event);
     }
 }

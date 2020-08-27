@@ -15,6 +15,7 @@
   "scripts": [],
   "esmodules": [
     "unofficial-ddb-api-wrapper.js",
+    "module/actionTypes.js",
     "module/loginHandler.js",
     "module/settings.js",
     "module/preloadTemplates.js",

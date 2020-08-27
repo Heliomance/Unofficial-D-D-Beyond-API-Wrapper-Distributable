@@ -1,4 +1,5 @@
 import { Utils } from "./utils.js";
+import { ActionTypes } from "./actionTypes.js";
 export class LoginHandler {
     constructor() {
         document.addEventListener("UDAW_SessionCookie", (evt) => {
@@ -8,6 +9,6 @@ export class LoginHandler {
     }
     requestSessionCookie() {
         console.log("unofficial-ddb-api-wrapper | requesting cookie");
-        Utils.sendCustomEvent("get-session-cookie");
+        Utils.sendCustomEvent(ActionTypes.GetSessionCookie);
     }
 }
