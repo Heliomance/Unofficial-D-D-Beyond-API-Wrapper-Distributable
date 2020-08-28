@@ -3,7 +3,7 @@
   "title": "Unofficial D&D Beyond Api Wrapper",
   "description": "",
   "systems": ["dnd5e"],
-  "version": "0.1.4",
+  "version": "0.1.5",
   "author": "Heliomance",
   "authors": [
     {
@@ -16,10 +16,11 @@
   "esmodules": [
     "unofficial-ddb-api-wrapper.js",
     "module/actionTypes.js",
+    "module/extensionWrapper.js",
     "module/loginHandler.js",
     "module/settings.js",
     "module/preloadTemplates.js",
-    "module/utils.js"
+
   ],
   "styles": [
     "unofficial-ddb-api-wrapper.css"

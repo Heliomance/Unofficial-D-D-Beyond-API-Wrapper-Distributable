@@ -1,14 +1,12 @@
-import { Utils } from "./utils.js";
-import { ActionTypes } from "./actionTypes.js";
+import { ExtensionWrapper } from "./extensionWrapper.js";
 export class LoginHandler {
     constructor() {
-        document.addEventListener("UDAW_SessionCookie", (evt) => {
-            this.sessionCookie = evt.detail;
-            console.log("unofficial-ddb-api-wrapper | cookie recieved:", this.sessionCookie);
-        });
+        this.extensionWrapper = new ExtensionWrapper();
     }
-    requestSessionCookie() {
+    async requestSessionCookie() {
         console.log("unofficial-ddb-api-wrapper | requesting cookie");
-        Utils.sendCustomEvent(ActionTypes.GetSessionCookie);
+        this.sessionCookie = await this.extensionWrapper.getSessionCookie();
+        console.log("unofficial-ddb-api-wrapper | got cookie! yay!");
+        console.log("cookie value:", this.sessionCookie);
     }
 }
