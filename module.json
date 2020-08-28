@@ -19,8 +19,7 @@
     "module/extensionWrapper.js",
     "module/loginHandler.js",
     "module/settings.js",
-    "module/preloadTemplates.js",
-
+    "module/preloadTemplates.js"
   ],
   "styles": [
     "unofficial-ddb-api-wrapper.css"
