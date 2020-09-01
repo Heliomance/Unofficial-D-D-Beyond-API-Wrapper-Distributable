@@ -3,7 +3,7 @@
   "title": "Unofficial D&D Beyond Api Wrapper",
   "description": "",
   "systems": ["dnd5e"],
-  "version": "0.1.6",
+  "version": "0.1.7",
   "author": "Heliomance",
   "authors": [
     {
